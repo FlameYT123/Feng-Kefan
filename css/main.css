@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+        #navbar,#lol,#lolol th{
+            border-color: darkturquoise;
+            border-style: solid;
+            border-color: black;
+            border-collapse: collapse;
+            font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+        }
+        
+        #navbar,#lol,#lolol {
+            background-color: rgb(255, 255, 255);
+            color:blue; 
+            text-align:center;
+            font-size: 1vw;
+            font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+        }
+        /* this changese the font and image for the body */
+        body footer{
+            /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+            font-family: 'Itim', cursive;
+            background-image: url("../img/1017.png");	
+            color:rgb(255, 255, 255)
+        }
+        header {
+            background-color: #73956F;
+            color:rgb(255, 255, 255);
+            text-align: center;
+            font-size: 50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .navbar {
+            background-color: rgb(255, 255, 255);
+            border: solid #000000;
+            font-size: 20px;
+            position: sticky;
+            top: 0px;
+        }  
+        .navbar th {
+            border: solid #000000;
+            padding: 5px;
+        }    
+        .dropdown {
+            display: inline-block;
+        }  
+        .dropdown-content{
+            display:none;
+            position:absolute;
+            background-color: coral;
+            color: cornsilk;
+            padding:5px;
+            box-shadow: 5px 5px 10px black;
+
+        }  
+        .dropdown:hover .dropdown-content{
+            display:block;
+        }    
+        .active{
+            background-color: lightcoral;
+        }  
+        body{
+            background-image:url(../sky.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }

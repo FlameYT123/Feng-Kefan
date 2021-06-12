@@ -1,0 +1,38 @@
+body{
+    background-image:url(../sky.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dropdown{
+    display: inline-block;
+}
+.dropdown-English{
+    display:none;
+    padding: 5px;
+    box-shadow: 5px 5px 10px black;
+    background-color: coral;
+}
+.dropdown-Science{
+    display:none;
+    padding: 5px;
+    box-shadow: 5px 5px 10px black;
+    background-color: coral;
+}
+.dropdown-Math{
+    display:none;
+    padding: 5px;
+    box-shadow: 5px 5px 10px black;
+    background-color: coral;
+}
+.dropdown:hover .dropdown-English{
+    display:block;
+    position: absolute;
+}
+.dropdown:hover .dropdown-Science{
+    display:block;
+    position: absolute;
+}
+.dropdown:hover .dropdown-Math{
+    display:block;
+    position: absolute;
+}
